@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="temp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div class="signal">
+                10:01
+
+            </div>
+            <div>
+
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-battery-quarter"></i>
+            </div>
+        </header>
+        <p>
+            Temperature Converter
+        </p>
+        <input type="text" id="num" placeholder="enter value">
+
+        <select id="unit">
+            <option value="Celcius">Celcius</option>
+            <option value="Fahrenhit">Fahrenhit</option>
+        </select>
+
+        <div class="res">
+            Result:
+            <div id="result">
+
+            </div>
+        </div>
+
+        <div class="button">
+            <button onClick="convertTemperature()">
+                Submit
+            </button>
+        </div>
+        <script src="script.js"></script>
+
+</body>
+
+</html>

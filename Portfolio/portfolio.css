@@ -1,0 +1,335 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: 'poppins',sans-serif;
+ 
+   
+}
+body{
+    background-color: rgb(228, 220, 220);
+    
+}
+.navbar{
+    position:fixed;
+
+    width:100%;
+    height:70px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:none;
+    background-color:rgba(0, 0, 0, 0.8);
+    
+    backdrop-filter:blur(10px);
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:orangered;
+    text-decoration: red;
+}
+
+
+.anchor{
+    width:600px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border:none;
+}
+
+.logo{
+    
+    font-size:25px;
+    font-weight:500;
+    color:white;
+    transition:0.3s ease;
+}
+
+.logo:hover{
+    color: orangered;
+    text-shadow:0 0 55px orangered,
+                0 0 50px orangered;
+    transform:scale(1.1);
+    border:2px solid white;
+    padding:2px 5px 2px 5px;
+    border-radius:50%;
+    background-color: white;
+
+
+}
+span{
+    color:orangered;
+}
+
+.anchor a{
+    font-size:17px;
+    font-weight:500;
+    margin:0 20px;
+    border-bottom:1px solid transparent;
+    transition:0.3s ease;
+}
+.anchor a:hover,
+.anchor a:active,
+footer a:hover,
+footer a:active{
+    color:orangered;
+    border-bottom:1px solid orangered;
+   
+}
+
+button{
+    border:none;
+    cursor:pointer;
+}
+
+.contact{
+   
+    color:black;
+    font-size:15px;
+    height:50px;
+    width:120px;
+    padding:5px 10px;
+    background-color:white;
+    border-radius:5px;
+  
+    font-weight: 400;
+    
+ }
+
+ .contact:hover{
+    background-color:orangered;
+    box-shadow:0 0 55px orangered,
+    0 0 50px orangered;
+    color:white;
+ }
+
+ .content1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:90vh;
+ }
+textarea{
+   outline:none;
+}
+
+ img{
+    height:300px;
+    width:300px;
+    
+    margin-top:120px;
+    margin-right:40px;
+    background-image: url("https://unsplash.com/photos/shallow-focus-photo-of-woman-in-gray-jacket-0Zx1bDv5BNY");
+    background-size: auto;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+ h1,h3,p{
+    color:black;
+ }
+
+ .intro{
+    height:300px;
+    width:600px;
+    margin-top:210px;
+  
+    color:black;
+    font-weight:100px;
+ }
+ 
+
+ button{
+    height:30px;
+    padding:8px 8px;
+    border-radius:4px;
+    margin-right:15px;
+    cursor:pointer;
+    background-color: rgb(34, 186, 236);
+ }
+
+ button:hover{
+    background-color:rgb(228, 220, 220);
+    color:black;
+    border:0.5px solid black;
+    cursor:pointer;
+ }
+
+.box1 h2{
+    text-align:center;
+    color:white;
+}
+.box1 h3{
+    color:white;
+}
+
+ .box1{
+    height:400px;
+   
+    width:500px;
+    margin-left:420px;
+    text-transform:uppercase;
+    border:2px solid transparent;
+    list-style:none;
+    background-color:#353b48;
+    /* box-shadow:2px 2px 25px rgb(41, 37, 37); */
+ }
+
+
+.box1 li{
+    margin:20px 0px;
+    padding:10px;
+}
+
+.b{
+
+     display:block;
+     height:20px;
+     border:1px solid black;
+     border-radius:10px;
+     overflow:hidden;
+     transition:all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    
+ }
+
+ .b span{
+    height:20px;
+    float:left;
+    text-align:center;
+    color:black;
+    background-color:rgb(123, 212, 241);
+
+ }
+ .b:hover{
+   box-shadow:0px 14px rgba(0,0,0,0.25),0 10px 10px ragba(0,0,0,0.22);
+ }
+
+ .html{
+    width:90%;
+    animation:html 3s;
+    
+ }
+ .css{
+    width:80%;
+    animation:css 3s;
+ }
+ .php{
+    width:60%;
+    animation:php 3s;
+ }
+ .js{
+    width:40%;
+    animation:js 3s;
+ }
+
+ @keyframes html{
+   0%{
+      width:0%;
+   }
+   100%{
+      width:90%;
+   }
+ }
+
+
+ @keyframes css{
+   0%{
+      width:0%;
+   }
+   100%{
+      width:80%;
+   }
+ }
+
+
+
+ @keyframes php{
+   0%{
+      width:0%;
+   }
+   100%{
+      width:60%;
+   }
+ }
+
+
+
+ @keyframes js{
+   0%{
+      width:0%;
+   }
+   100%{
+      width:40%;
+   }
+ }
+
+
+.p{
+    margin-right:0px;
+}
+
+ 
+ .contactbox{
+    width:400px;
+    height:450px;
+    margin-top:200px;
+    border:none;
+    
+    color:block;
+    margin-left:420px;
+    
+  
+ }
+ input{
+    color:green;
+    border:0.1px solid black;
+    height:30px;
+    width:100%;
+    border-radius:7px;
+    padding:2px 0px 2px 5px;
+    outline:none;
+ }
+
+ textarea{
+    width:100%;
+    color:green;
+    border-radius:7px;
+    padding:2px 0px 2px 5px;
+    border:0.1px solid black;
+ }
+
+ .contactbox h3{
+    text-align:center;
+ }
+
+
+ .contactbox li{
+    list-style:none;
+    margin:25px;
+ }
+
+ .contactbox button{
+    margin:0px  25px 0px 120px;
+ }
+
+ 
+ footer{
+    height:100px;
+    width:100%;
+    margin-top:20px;
+    background-color:black;
+    border:2px solid white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+ }
+ footer a{
+   margin-right:25px;
+ }
+
+ 
